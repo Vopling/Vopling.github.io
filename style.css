@@ -1,0 +1,25 @@
+#anim{
+    text-align: center;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+#anims{
+    text-align: center;
+    animation-name: spin;
+    animation-duration: 6s;
+    animation-delay: 3s;
+
+}
+@keyframes spin{
+
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+
+}
